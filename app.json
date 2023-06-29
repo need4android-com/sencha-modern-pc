@@ -232,9 +232,10 @@
             "path": "resources/echarts/customed.js",
             "includeInBundle": false
         },
-        {
+        //comment this to get sencha app build generate all js files
+   /*     {
             "path": "${framework.dir}/build/ext-modern-all-debug.js"
-        },
+        }, */
         {
             "path": "app.js",
             "bundle": true
